@@ -2,7 +2,7 @@
 
 This is a simple project of a static webpage made with HTML and CSS. The main objective of this project was to practice and enhance my front-end developing abilities, focusing on content structuring with HTML and styling with CSS.
 
-Here's why:
+### Features
 * HTML semantic structure 
 * Custom styles with CSS
 
