@@ -1,0 +1,104 @@
+.packages {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  padding: 160px 0px;
+  align-items: center;
+}
+
+.packages-info {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.packages-info h2 {
+  color: #252b42;
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+}
+
+.packages-info h2::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #e74040;
+  width: 94px;
+  height: 7px;
+  top: -35px;
+}
+
+.packages-info p {
+  color: #737373;
+  font-size: 14px;
+  max-width: 38ch;
+}
+
+.packages-info a {
+  color: #23a6f0;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  gap: 10px;
+  text-align: center;
+}
+
+.packages-img {
+  display: block;
+  height: 400px;
+  position: relative;
+}
+
+.packages-img::before {
+  content: "";
+  display: block;
+  width: 52px;
+  height: 52px;
+  background-color: #e2f6ff;
+  left: 52px;
+  position: absolute;
+}
+
+.packages-img::after {
+  content: "";
+  display: block;
+  width: 34px;
+  height: 57px;
+  background-color: #ffdce0;
+  bottom: 57px;
+  right: 14px;
+  position: absolute;
+}
+
+.packages-img img {
+  position: absolute;
+}
+
+.kids {
+  z-index: -1;
+  width: 333px;
+  height: 343px;
+  left: 125px;
+}
+
+.graph {
+  position: relative;
+  width: 158px;
+  height: 158px;
+  top: 14px;
+}
+
+.graph::before {
+  content: "";
+  display: block;
+  background-color: #e2f6ff;
+  width: 52px;
+  height: 52px;
+}
+
+.usage {
+  width: 362px;
+  height: 110px;
+  bottom: 0px;
+}

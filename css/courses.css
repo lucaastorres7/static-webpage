@@ -1,0 +1,162 @@
+.courses {
+  padding: 112px 0;
+}
+
+.courses-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 112px;
+}
+
+.courses-info h6 {
+  color: #23a6f0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.courses-info h2 {
+  color: #252b42;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.courses-info p {
+  color: #737373;
+  font-size: 14px;
+  width: 463px;
+}
+
+.courses-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.courses-card-img {
+  position: relative;
+}
+
+.courses-card-img h6 {
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #e74040;
+  position: absolute;
+  display: block;
+  padding: 7px 10px;
+  border-radius: 3px;
+  top: 20px;
+  left: 20px;
+}
+
+.icon {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  bottom: 24px;
+  left: 49px;
+}
+
+.like,
+.cart,
+.view {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.courses-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 25px;
+}
+
+.courses-card-language {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.courses-card-language p {
+  color: #23a6f0;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.star {
+  display: flex;
+  background-color: #252b42;
+  gap: 5px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.star p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.course-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #252b42;
+}
+
+.course-description {
+  font-size: 14px;
+  color: #737373;
+}
+
+.downloads {
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #737373;
+}
+
+.price {
+  display: flex;
+  gap: 5px;
+  padding: 5px 0;
+}
+
+.price span,
+.price p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.price p {
+  color: #40bb15;
+}
+
+.price span {
+  color: #bdbdbd;
+}
+
+.sub-info {
+  display: flex;
+  gap: 4.5px;
+  padding: 15px 0px;
+}
+
+.sub-info p {
+  color: #737373;
+  font-size: 12px;
+}
+
+.courses-link {
+  display: flex;
+  gap: 10px;
+  color: #23a6f0;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 37px;
+  border: 1px solid #23a6f0;
+  align-items: center;
+  width: fit-content;
+}
